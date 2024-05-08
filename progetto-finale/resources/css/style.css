@@ -1,0 +1,562 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+::-webkit-scrollbar {
+    width: 1dvh;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #F27001;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:#F27001 !important;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #F27001;
+  }
+  body{
+    font-family: "Quicksand", sans-serif !important;
+ background-attachment: fixed !important;
+
+ 
+  }
+  a{
+    text-decoration: none !important;
+    color: #ffffff !important;
+  }
+  .buttonCustom{
+    border: #F27001 2px solid !important;
+   background-color: #ffffff !important;
+   color: #F27001 !important;
+    font-weight: bolder !important;
+    transition: background-color 0.5s ease, color 0.5s ease !important;
+
+   
+  }
+  .buttonCustom:hover{
+    background-color: #F27001 !important;
+    color: #ffffff !important;
+  }
+
+.glass-effect-nav {box-shadow: #F27001 0px 0px 10px 0px !important;
+    height: 10vh;
+    background-color: #F27001  !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 5px solid #F27001!important;
+    z-index: 10000 !important;
+    font-size: larger !important;
+    font-weight: bolder !important;
+    transition: background-color 0.5s ease, backdrop-filter 0.5s ease, border-bottom 0.5s ease !important;
+}
+.cf{
+  background-image: url('../../public/img/pngegg9.png') !important;
+  
+
+}
+.cfvero{
+  width: 80%;
+  background-color: #f3f4f6;
+  border-radius: 30px;
+  border: 2px solid #F26F02;
+  
+}
+
+
+.logonav {
+    height: 80px;
+}
+.shadownav{
+    box-shadow: 0px 0px 10px 0px #F27001 !important;
+}
+.logo{
+  
+    height: 150px;
+ 
+
+  }
+  .welcome-page{
+    background-color: #f2932f !important;
+    padding: 5rem;
+    
+  }
+  .textcard{
+    color: #f2932f;
+  }
+  .bgcard{
+    background-color:#f3f4f6!important;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: #F27001;
+    border-radius: 30px;
+
+  }
+  
+
+.hero-section {
+    background-color: #ffffff;
+    height: 650px;
+    background-image: url('../../public/img/pngegg11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   overflow: hidden !important;
+    z-index: 1 !important;
+    
+    
+}
+.herotext{
+  
+   color: #F27001;
+  font-size: large;
+  font-weight: bolder;
+  opacity: 0.9;
+  z-index: 100;
+  align-self:center;
+
+   
+    /* background: linear-gradient(180deg, rgba(0,52,14,1) 0%, rgba(255,255,255,0) 100%); */
+
+}
+.herotext:hover{
+    opacity: 1;
+}
+.herowave {
+   border-radius: 0% 100% 0% 100% / 0% 0% 100% 100% !important;
+   background-color: #FF5400 !important;
+   height: 300px;
+  
+
+   
+}
+
+
+
+.imgdiv {
+    border-radius: 14% 86% 11% 89% / 88% 9% 91% 12% !important;
+ 
+}
+.img1 {
+    background-image: url('../../public/img/cavallibuffi.jpg') !important;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto !important;
+    
+  
+}
+.imgfin{   background-image: url('../../public/img/finestra1.jpg') !important;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto !important;
+  }
+
+.img2 {
+    background-image:url('../../public/img/cavallobuffo1.jpg') !important;
+    width: 200px !important;
+    height: 200px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto !important;
+   
+  
+}
+.wcard:hover{
+  transform: scale(1.1);
+
+  transition: 0.6s ease-out; 
+  transform-style: preserve-3d;
+
+}
+.wcard::before{
+  transition: 0.5s ease-out; 
+}
+.img4{
+  border: #F27001 10px solid;
+  height:700px;
+  width: 600px;
+  border-radius: 100% 0% 100% 0% / 23% 77% 23% 77%  ;
+}
+.img3{
+  border: #F27001 10px solid;
+  width: 600px;
+  height: 700px;
+  border-radius: 0% 100% 0% 100% / 78% 22% 78% 22% ;
+}
+
+.cavallohero {
+  background-image: url('../../public/img/pngegg8.png') !important;
+  z-index: 10000 !important;
+  width: 600px;
+  height:650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+}
+.cavallohero:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(17, 5, 8)) !important;
+  transition: 0.5s ease-out;
+}
+.ev{
+  background-image: url('../../public/img/pngegg12.png') !important;
+  z-index: 200;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.ev1{
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #ffffff;
+  border: 15px solid #F27001;
+
+  z-index: 200;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.textmission{
+  font-size: larger;
+  font-weight:bold;
+  background-image: url('../../public/img/pngegg19.png') !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.mission{
+  background-image: url('../../public/img/macchia.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textmission1{
+  font-size: larger;
+  font-weight:bold;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+.footercustom{
+  background-color: #F27001;
+  color: #ffffff;
+}
+.card{
+  width: 350px !important;
+}
+.cardhorse{
+  width: 350px !important;
+  height: 250px !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+
+
+}
+.cardhorsehover{
+ 
+font-size: larger;
+
+}
+
+ 
+ 
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: 2px solid #F26F02;
+  background-color: #ffffff;
+  color: #F26F02 !important;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ 
+ 
+
+
+
+ .cardgestione{
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cardgestione::before,
+.cardgestione::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.cardgestione::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.cardgestione::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.cardgestione:hover::before,
+.cardgestione:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.cardgestione:hover:after {
+  content: " Utenti";
+}
+
+.cardcavalli {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cardcavalli::before,
+.cardcavalli::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.cardcavalli::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.cardcavalli::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.cardcavalli:hover::before,
+.cardcavalli:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.cardcavalli:hover:after {
+  content: "Cavalli";
+}
+
+
+.cardadozioni {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cardadozioni::before,
+.cardadozioni::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.cardadozioni::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.cardadozioni::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.cardadozioni:hover::before,
+.cardadozioni:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.cardadozioni:hover:after {
+  content: "Adozioni";
+}
+.imgcardcav{
+  border: #F27001 10px solid;
+  width: 550px;
+  height: 500px;
+  border-radius: 0% 100% 0% 100% / 78% 22% 78% 22% ;
+}
+.loader {
+  --col1: rgba(228, 19, 141, 0.925);
+  --col2: rgb(255, 179, 80);
+  font-size: 2em;
+  font-weight: 600;
+  perspective: 800px;
+  position: relative;
+}
+
+.loader::after,
+.loader::before,
+.loader .text::after,
+.loader .text::before {
+  perspective: 800px;
+  animation: anim 2s ease-in-out infinite, dotMove 10s ease-out alternate infinite, move 10s linear infinite 1s;
+  ;
+  content: '●';
+  color: var(--col1);
+  position: absolute;
+  translate: -60px 500px;
+  width: 5px;
+  height: 5px;
+}
+
+.loader::before {
+  animation-delay: 3s;
+  color: var(--col1);
+}
+
+.loader .text::before {
+  color: var(--col2);
+  animation-delay: 2s;
+}
+
+.loader .text::after {
+  color: var(--col2);
+}
+
+.loader .text {
+  animation: anim 20s linear infinite, move 10s linear infinite 1s;
+  color: transparent;
+  background-image: linear-gradient(90deg, 
+  var(--col1) 0%,
+  var(--col2) 100%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: skew(5deg, -5deg);
+  -webkit-background-clip: text;
+  position: relative;
+}
+
+@keyframes anim {
+  0%, 100% {
+    text-shadow: 2px 0px 2px rgba(179, 158, 158, .5);
+  }
+
+  50% {
+    background-size: 0%;
+    background-position-x: left;
+    text-shadow: 2px 10px 6px rgba(179, 158, 158, 1);
+  }
+}
+
+@keyframes move {
+  50% {
+    translate: 0px 0px;
+    rotate: x 60deg;
+    transform: skew(-5deg, 5deg);
+  }
+}
+
+@keyframes dotMove {
+  0%, 100% {
+    translate: -60px 300px;
+  }
+
+  50% {
+    translate: 160px -250px;
+    scale: .5;
+    opacity: .85;
+  }
+}
+
